@@ -5,10 +5,42 @@ Public Class frmRight
     Dim SQLstr As String
     Dim SQLConn As New SqlConnection
     Dim SQLcmd As New SqlCommand
+    Private Sub TabControl_DrawItem(sender As Object, e As System.Windows.Forms.DrawItemEventArgs) Handles TabControl1.DrawItem
 
+        '  Identify which TabPage is currently selected
+        Dim SelectedTab As TabPage = TabControl1.TabPages(e.Index)
+
+        '  Get the area of the header of this TabPage
+        Dim HeaderRect As Rectangle = TabControl1.GetTabRect(e.Index)
+
+        '  Create two Brushes to paint the Text
+        Dim BlackTextBrush As New SolidBrush(Color.Black)
+        Dim RedTextBrush As New SolidBrush(Color.Red)
+
+        '  Set the Alignment of the Text
+        Dim sf As New StringFormat()
+        sf.Alignment = StringAlignment.Center
+        sf.LineAlignment = StringAlignment.Center
+
+        '  Paint the Text using the appropriate Bold and Color settings
+        If Convert.ToBoolean(e.State And DrawItemState.Selected) Then
+
+            Dim BiggerBoldFont As New Font(TabControl1.Font.Name, 10, FontStyle.Bold)
+            e.Graphics.DrawString(SelectedTab.Text, BiggerBoldFont, RedTextBrush, HeaderRect, sf)
+        Else
+            e.Graphics.DrawString(SelectedTab.Text, e.Font, BlackTextBrush, HeaderRect, sf)
+        End If
+
+
+        '  Job done - dispose of the Brushes
+        BlackTextBrush.Dispose()
+        RedTextBrush.Dispose()
+
+    End Sub
     Public Sub frmRight_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SQLstr = "Data Source=Server1;Initial Catalog=SimpleRecipeDB;Persist Security Info=True;User ID=sa;Password=F1ll3R01"
         SQLConn.ConnectionString = SQLstr
+
     End Sub
 
     Public Sub LoadIngredients()
@@ -68,21 +100,56 @@ Public Class frmRight
             If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
         End Try
     End Sub
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        End
-
-    End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Timer1.Enabled = False
         LoadRecipe()
-        If Label2.Text <> "" Then
+        If Label2.Text <> "" And Label2.Text <> "0" Then
             LoadIngredients()
             LoadSteps()
-
+            'LoadPic()
+        Else
+            ClearRecipe()
         End If
     End Sub
+    Public Sub LoadPic()
+        Dim recordcount As Integer = 0
+        Dim ImageId As Integer
 
+        Try
+            SQLConn.Open()
+            SQLcmd = New SqlCommand("Select recipeid From Recipe Where recipename = '" & frmTop.Label1.Text & "'", SQLConn)
+            Dim SQLDS As New DataSet
+            Dim SQLDA As New SqlDataAdapter(SQLcmd)
+            recordcount = SQLDA.Fill(SQLDS)
+
+            If recordcount = 0 Then
+                If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
+                PictureBox1.Image = Image.FromFile("C:\ProgramData\MealPlanner\StandardPic.jpg")
+
+                Exit Sub
+            Else
+                If IsDBNull(SQLDS.Tables(0).Rows(0).Item(0).ToString) Or SQLDS.Tables(0).Rows(0).Item(0).ToString = "" Then
+                    PictureBox1.Image = Image.FromFile("C:\ProgramData\MealPlanner\StandardPic.jpg")
+                Else
+                    ImageId = SQLDS.Tables(0).Rows(0).Item(0)
+                    If System.IO.File.Exists("\\SERVER1\Public\Radium Technologies\Living Cookbook\5.0\Images\" & ImageId & ".jpg") Then
+                        PictureBox1.ImageLocation = "\\SERVER1\Public\Radium Technologies\Living Cookbook\5.0\Images\" & ImageId & ".jpg"
+                        'PictureBox1.Image = Image.FromFile("\\SERVER1\Public\Radium Technologies\Living Cookbook\5.0\Images\" & ImageId & ".jpg")
+                    Else
+                        PictureBox1.Image = Image.FromFile("C:\ProgramData\MealPlanner\StandardPic.jpg")
+                    End If
+                End If
+
+
+
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
+        End Try
+    End Sub
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         Steps.Show()
         Steps.Label1.Text = Label2.Text
@@ -101,22 +168,20 @@ Public Class frmRight
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        AddCat.Show()
-        AddCat.Label2.Text = 0
-    End Sub
+
     Public Sub LoadRecipe()
         Dim recordcount As Integer = 0
 
         Try
             SQLConn.Open()
-            SQLcmd = New SqlCommand("Select * From Recipe Where recipename = '" & Label1.Text & "'", SQLConn)
+            SQLcmd = New SqlCommand("Select * From Recipe Where recipename = '" & frmTop.Label1.Text & "'", SQLConn)
             Dim SQLDS As New DataSet
             Dim SQLDA As New SqlDataAdapter(SQLcmd)
             recordcount = SQLDA.Fill(SQLDS)
 
             If recordcount = 0 Then
                 If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
+                ClearRecipe()
                 Exit Sub
             Else
                 Label2.Text = SQLDS.Tables(0).Rows(0).Item(0)
@@ -361,5 +426,57 @@ Public Class frmRight
         Finally
             If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
         End Try
+    End Sub
+    Public Sub ClearRecipe()
+        Label2.Text = "0"
+        TextBox2.Text = ""
+        Label6.Text = ""
+        Label7.Text = ""
+        Label9.Text = ""
+        Label19.Text = ""
+        Label45.Visible = False
+        Label46.Visible = False
+        Label45.Text = ""
+        Label11.Text = ""
+        Label13.Text = ""
+        Label15.Text = ""
+        Label17.Text = ""
+        Label27.Text = ""
+        Label25.Text = ""
+        Label23.Text = ""
+        Label21.Text = ""
+        Label43.Text = ""
+        Label41.Text = ""
+        Label39.Text = ""
+        Label85.Text = ""
+        Label83.Text = ""
+        Label81.Text = ""
+        Label79.Text = ""
+        Label77.Text = ""
+        Label75.Text = ""
+        Label73.Text = ""
+        Label71.Text = ""
+        Label69.Text = ""
+        Label67.Text = ""
+        Label65.Text = ""
+        Label63.Text = ""
+        Label61.Text = ""
+        Label59.Text = ""
+        Label57.Text = ""
+        Label55.Text = ""
+        Label53.Text = ""
+        Label51.Text = ""
+        Label121.Text = ""
+        Label119.Text = ""
+        Label117.Text = ""
+        Label115.Text = ""
+        Label113.Text = ""
+        Label157.Text = ""
+        Label153.Text = ""
+        Label155.Text = ""
+        Label151.Text = ""
+        Label149.Text = ""
+        Label147.Text = ""
+        Label145.Text = ""
     End Sub
 End Class

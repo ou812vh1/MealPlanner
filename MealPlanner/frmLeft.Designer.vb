@@ -28,11 +28,12 @@ Partial Class frmLeft
         '
         'TV1
         '
+        Me.TV1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TV1.Location = New System.Drawing.Point(5, 35)
-        Me.TV1.MaximumSize = New System.Drawing.Size(330, 570)
+        Me.TV1.MaximumSize = New System.Drawing.Size(330, 600)
         Me.TV1.MinimumSize = New System.Drawing.Size(330, 570)
         Me.TV1.Name = "TV1"
-        Me.TV1.Size = New System.Drawing.Size(330, 570)
+        Me.TV1.Size = New System.Drawing.Size(330, 600)
         Me.TV1.TabIndex = 0
         '
         'Label1
@@ -49,7 +50,7 @@ Partial Class frmLeft
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(343, 617)
+        Me.ClientSize = New System.Drawing.Size(343, 648)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TV1)

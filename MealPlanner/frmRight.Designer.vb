@@ -24,10 +24,6 @@ Partial Class frmRight
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRight))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label45 = New System.Windows.Forms.Label()
@@ -40,7 +36,6 @@ Partial Class frmRight
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -55,22 +50,6 @@ Partial Class frmRight
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Label123 = New System.Windows.Forms.Label()
         Me.Label124 = New System.Windows.Forms.Label()
-        Me.Label125 = New System.Windows.Forms.Label()
-        Me.Label126 = New System.Windows.Forms.Label()
-        Me.Label127 = New System.Windows.Forms.Label()
-        Me.Label128 = New System.Windows.Forms.Label()
-        Me.Label129 = New System.Windows.Forms.Label()
-        Me.Label130 = New System.Windows.Forms.Label()
-        Me.Label131 = New System.Windows.Forms.Label()
-        Me.Label132 = New System.Windows.Forms.Label()
-        Me.Label133 = New System.Windows.Forms.Label()
-        Me.Label134 = New System.Windows.Forms.Label()
-        Me.Label135 = New System.Windows.Forms.Label()
-        Me.Label136 = New System.Windows.Forms.Label()
-        Me.Label137 = New System.Windows.Forms.Label()
-        Me.Label138 = New System.Windows.Forms.Label()
-        Me.Label139 = New System.Windows.Forms.Label()
-        Me.Label140 = New System.Windows.Forms.Label()
         Me.Label141 = New System.Windows.Forms.Label()
         Me.Label142 = New System.Windows.Forms.Label()
         Me.Label143 = New System.Windows.Forms.Label()
@@ -197,8 +176,6 @@ Partial Class frmRight
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
@@ -211,53 +188,19 @@ Partial Class frmRight
         Me.TabPage4.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(881, 64)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(105, 38)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "New"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(881, 123)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(105, 38)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Edit"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(881, 167)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(105, 38)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Save"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(881, 211)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(105, 38)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Cancel"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Controls.Add(Me.TabPage4)
-        Me.TabControl1.Controls.Add(Me.TabPage5)
+        Me.TabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed
+        Me.TabControl1.ItemSize = New System.Drawing.Size(125, 30)
         Me.TabControl1.Location = New System.Drawing.Point(12, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(863, 593)
+        Me.TabControl1.Size = New System.Drawing.Size(863, 625)
+        Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.TabControl1.TabIndex = 4
         '
         'TabPage1
@@ -272,14 +215,14 @@ Partial Class frmRight
         Me.TabPage1.Controls.Add(Me.Label8)
         Me.TabPage1.Controls.Add(Me.Label6)
         Me.TabPage1.Controls.Add(Me.Label5)
-        Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Controls.Add(Me.TextBox2)
         Me.TabPage1.Controls.Add(Me.TextBox1)
         Me.TabPage1.Controls.Add(Me.PictureBox1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.ForeColor = System.Drawing.Color.Black
+        Me.TabPage1.Location = New System.Drawing.Point(4, 34)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(855, 567)
+        Me.TabPage1.Size = New System.Drawing.Size(855, 587)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Recipe"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -369,14 +312,6 @@ Partial Class frmRight
         Me.Label5.Text = "Prep Time"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label1
-        '
-        Me.Label1.Location = New System.Drawing.Point(513, 16)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(307, 26)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Label1"
-        '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -391,7 +326,7 @@ Partial Class frmRight
         Me.TextBox1.Location = New System.Drawing.Point(513, 234)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(307, 294)
+        Me.TextBox1.Size = New System.Drawing.Size(307, 259)
         Me.TextBox1.TabIndex = 1
         '
         'PictureBox1
@@ -400,7 +335,7 @@ Partial Class frmRight
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(17, 24)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(471, 504)
+        Me.PictureBox1.Size = New System.Drawing.Size(471, 469)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -410,10 +345,10 @@ Partial Class frmRight
         Me.TabPage2.Controls.Add(Me.Button7)
         Me.TabPage2.Controls.Add(Me.Label3)
         Me.TabPage2.Controls.Add(Me.DGV1)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 34)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(855, 567)
+        Me.TabPage2.Size = New System.Drawing.Size(855, 587)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Ingredients"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -447,7 +382,7 @@ Partial Class frmRight
         Me.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV1.Location = New System.Drawing.Point(15, 58)
         Me.DGV1.Name = "DGV1"
-        Me.DGV1.Size = New System.Drawing.Size(834, 492)
+        Me.DGV1.Size = New System.Drawing.Size(834, 482)
         Me.DGV1.TabIndex = 1
         '
         'TabPage3
@@ -455,9 +390,9 @@ Partial Class frmRight
         Me.TabPage3.Controls.Add(Me.Label4)
         Me.TabPage3.Controls.Add(Me.Button10)
         Me.TabPage3.Controls.Add(Me.DGV2)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 34)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(855, 567)
+        Me.TabPage3.Size = New System.Drawing.Size(855, 587)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Prepare"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -491,29 +426,13 @@ Partial Class frmRight
         Me.DGV2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV2.Location = New System.Drawing.Point(15, 58)
         Me.DGV2.Name = "DGV2"
-        Me.DGV2.Size = New System.Drawing.Size(834, 492)
+        Me.DGV2.Size = New System.Drawing.Size(834, 487)
         Me.DGV2.TabIndex = 11
         '
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.Label123)
         Me.TabPage4.Controls.Add(Me.Label124)
-        Me.TabPage4.Controls.Add(Me.Label125)
-        Me.TabPage4.Controls.Add(Me.Label126)
-        Me.TabPage4.Controls.Add(Me.Label127)
-        Me.TabPage4.Controls.Add(Me.Label128)
-        Me.TabPage4.Controls.Add(Me.Label129)
-        Me.TabPage4.Controls.Add(Me.Label130)
-        Me.TabPage4.Controls.Add(Me.Label131)
-        Me.TabPage4.Controls.Add(Me.Label132)
-        Me.TabPage4.Controls.Add(Me.Label133)
-        Me.TabPage4.Controls.Add(Me.Label134)
-        Me.TabPage4.Controls.Add(Me.Label135)
-        Me.TabPage4.Controls.Add(Me.Label136)
-        Me.TabPage4.Controls.Add(Me.Label137)
-        Me.TabPage4.Controls.Add(Me.Label138)
-        Me.TabPage4.Controls.Add(Me.Label139)
-        Me.TabPage4.Controls.Add(Me.Label140)
         Me.TabPage4.Controls.Add(Me.Label141)
         Me.TabPage4.Controls.Add(Me.Label142)
         Me.TabPage4.Controls.Add(Me.Label143)
@@ -640,9 +559,9 @@ Partial Class frmRight
         Me.TabPage4.Controls.Add(Me.Label14)
         Me.TabPage4.Controls.Add(Me.Label11)
         Me.TabPage4.Controls.Add(Me.Label12)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 34)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(855, 567)
+        Me.TabPage4.Size = New System.Drawing.Size(855, 587)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Nutrition"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -663,142 +582,6 @@ Partial Class frmRight
         Me.Label124.TabIndex = 150
         Me.Label124.Text = "total carbohydrate"
         Me.Label124.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label125
-        '
-        Me.Label125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label125.Location = New System.Drawing.Point(711, 494)
-        Me.Label125.Name = "Label125"
-        Me.Label125.Size = New System.Drawing.Size(87, 19)
-        Me.Label125.TabIndex = 149
-        '
-        'Label126
-        '
-        Me.Label126.Location = New System.Drawing.Point(631, 492)
-        Me.Label126.Name = "Label126"
-        Me.Label126.Size = New System.Drawing.Size(74, 19)
-        Me.Label126.TabIndex = 148
-        Me.Label126.Text = "threonine"
-        Me.Label126.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label127
-        '
-        Me.Label127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label127.Location = New System.Drawing.Point(711, 464)
-        Me.Label127.Name = "Label127"
-        Me.Label127.Size = New System.Drawing.Size(87, 19)
-        Me.Label127.TabIndex = 147
-        '
-        'Label128
-        '
-        Me.Label128.Location = New System.Drawing.Point(631, 462)
-        Me.Label128.Name = "Label128"
-        Me.Label128.Size = New System.Drawing.Size(74, 19)
-        Me.Label128.TabIndex = 146
-        Me.Label128.Text = "thiamin"
-        Me.Label128.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label129
-        '
-        Me.Label129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label129.Location = New System.Drawing.Point(711, 434)
-        Me.Label129.Name = "Label129"
-        Me.Label129.Size = New System.Drawing.Size(87, 19)
-        Me.Label129.TabIndex = 145
-        '
-        'Label130
-        '
-        Me.Label130.Location = New System.Drawing.Point(631, 432)
-        Me.Label130.Name = "Label130"
-        Me.Label130.Size = New System.Drawing.Size(74, 19)
-        Me.Label130.TabIndex = 144
-        Me.Label130.Text = "theobromine"
-        Me.Label130.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label131
-        '
-        Me.Label131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label131.Location = New System.Drawing.Point(711, 406)
-        Me.Label131.Name = "Label131"
-        Me.Label131.Size = New System.Drawing.Size(87, 19)
-        Me.Label131.TabIndex = 143
-        '
-        'Label132
-        '
-        Me.Label132.Location = New System.Drawing.Point(631, 404)
-        Me.Label132.Name = "Label132"
-        Me.Label132.Size = New System.Drawing.Size(74, 19)
-        Me.Label132.TabIndex = 142
-        Me.Label132.Text = "sugar"
-        Me.Label132.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label133
-        '
-        Me.Label133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label133.Location = New System.Drawing.Point(711, 378)
-        Me.Label133.Name = "Label133"
-        Me.Label133.Size = New System.Drawing.Size(87, 19)
-        Me.Label133.TabIndex = 141
-        '
-        'Label134
-        '
-        Me.Label134.Location = New System.Drawing.Point(631, 376)
-        Me.Label134.Name = "Label134"
-        Me.Label134.Size = New System.Drawing.Size(74, 19)
-        Me.Label134.TabIndex = 140
-        Me.Label134.Text = "sucrose"
-        Me.Label134.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label135
-        '
-        Me.Label135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label135.Location = New System.Drawing.Point(711, 352)
-        Me.Label135.Name = "Label135"
-        Me.Label135.Size = New System.Drawing.Size(87, 19)
-        Me.Label135.TabIndex = 139
-        '
-        'Label136
-        '
-        Me.Label136.Location = New System.Drawing.Point(631, 350)
-        Me.Label136.Name = "Label136"
-        Me.Label136.Size = New System.Drawing.Size(74, 19)
-        Me.Label136.TabIndex = 138
-        Me.Label136.Text = "starch"
-        Me.Label136.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label137
-        '
-        Me.Label137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label137.Location = New System.Drawing.Point(711, 322)
-        Me.Label137.Name = "Label137"
-        Me.Label137.Size = New System.Drawing.Size(87, 19)
-        Me.Label137.TabIndex = 137
-        '
-        'Label138
-        '
-        Me.Label138.Location = New System.Drawing.Point(631, 320)
-        Me.Label138.Name = "Label138"
-        Me.Label138.Size = New System.Drawing.Size(74, 19)
-        Me.Label138.TabIndex = 136
-        Me.Label138.Text = "sodium"
-        Me.Label138.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label139
-        '
-        Me.Label139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label139.Location = New System.Drawing.Point(711, 294)
-        Me.Label139.Name = "Label139"
-        Me.Label139.Size = New System.Drawing.Size(87, 19)
-        Me.Label139.TabIndex = 135
-        '
-        'Label140
-        '
-        Me.Label140.Location = New System.Drawing.Point(631, 292)
-        Me.Label140.Name = "Label140"
-        Me.Label140.Size = New System.Drawing.Size(74, 19)
-        Me.Label140.TabIndex = 134
-        Me.Label140.Text = "serine"
-        Me.Label140.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label141
         '
@@ -1871,24 +1654,6 @@ Partial Class frmRight
         Me.Label12.Text = "alcohol"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'TabPage5
-        '
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(855, 567)
-        Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "Extra"
-        Me.TabPage5.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(881, 324)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(105, 38)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "Exit"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'Timer1
         '
         '
@@ -1899,20 +1664,16 @@ Partial Class frmRight
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(105, 20)
         Me.Label2.TabIndex = 7
+        Me.Label2.Text = "0"
         '
         'frmRight
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(998, 617)
+        Me.ClientSize = New System.Drawing.Size(998, 648)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmRight"
         Me.TabControl1.ResumeLayout(False)
@@ -1927,11 +1688,6 @@ Partial Class frmRight
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TextBox2 As TextBox
@@ -1940,9 +1696,6 @@ Partial Class frmRight
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents TabPage5 As TabPage
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Label1 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label2 As Label
     Friend WithEvents DGV1 As DataGridView
@@ -1997,24 +1750,6 @@ Partial Class frmRight
     Friend WithEvents Label48 As Label
     Friend WithEvents Label49 As Label
     Friend WithEvents Label50 As Label
-    Friend WithEvents Label123 As Label
-    Friend WithEvents Label124 As Label
-    Friend WithEvents Label125 As Label
-    Friend WithEvents Label126 As Label
-    Friend WithEvents Label127 As Label
-    Friend WithEvents Label128 As Label
-    Friend WithEvents Label129 As Label
-    Friend WithEvents Label130 As Label
-    Friend WithEvents Label131 As Label
-    Friend WithEvents Label132 As Label
-    Friend WithEvents Label133 As Label
-    Friend WithEvents Label134 As Label
-    Friend WithEvents Label135 As Label
-    Friend WithEvents Label136 As Label
-    Friend WithEvents Label137 As Label
-    Friend WithEvents Label138 As Label
-    Friend WithEvents Label139 As Label
-    Friend WithEvents Label140 As Label
     Friend WithEvents Label141 As Label
     Friend WithEvents Label142 As Label
     Friend WithEvents Label143 As Label
@@ -2033,14 +1768,6 @@ Partial Class frmRight
     Friend WithEvents Label156 As Label
     Friend WithEvents Label157 As Label
     Friend WithEvents Label158 As Label
-    Friend WithEvents Label87 As Label
-    Friend WithEvents Label88 As Label
-    Friend WithEvents Label89 As Label
-    Friend WithEvents Label90 As Label
-    Friend WithEvents Label91 As Label
-    Friend WithEvents Label92 As Label
-    Friend WithEvents Label93 As Label
-    Friend WithEvents Label94 As Label
     Friend WithEvents Label95 As Label
     Friend WithEvents Label96 As Label
     Friend WithEvents Label97 As Label
@@ -2069,14 +1796,6 @@ Partial Class frmRight
     Friend WithEvents Label120 As Label
     Friend WithEvents Label121 As Label
     Friend WithEvents Label122 As Label
-    Friend WithEvents Label51 As Label
-    Friend WithEvents Label52 As Label
-    Friend WithEvents Label53 As Label
-    Friend WithEvents Label54 As Label
-    Friend WithEvents Label55 As Label
-    Friend WithEvents Label56 As Label
-    Friend WithEvents Label57 As Label
-    Friend WithEvents Label58 As Label
     Friend WithEvents Label59 As Label
     Friend WithEvents Label60 As Label
     Friend WithEvents Label61 As Label
@@ -2105,4 +1824,22 @@ Partial Class frmRight
     Friend WithEvents Label84 As Label
     Friend WithEvents Label85 As Label
     Friend WithEvents Label86 As Label
+    Friend WithEvents Label123 As Label
+    Friend WithEvents Label124 As Label
+    Friend WithEvents Label87 As Label
+    Friend WithEvents Label88 As Label
+    Friend WithEvents Label89 As Label
+    Friend WithEvents Label90 As Label
+    Friend WithEvents Label91 As Label
+    Friend WithEvents Label92 As Label
+    Friend WithEvents Label93 As Label
+    Friend WithEvents Label94 As Label
+    Friend WithEvents Label51 As Label
+    Friend WithEvents Label52 As Label
+    Friend WithEvents Label53 As Label
+    Friend WithEvents Label54 As Label
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label57 As Label
+    Friend WithEvents Label58 As Label
 End Class

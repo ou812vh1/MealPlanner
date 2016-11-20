@@ -50,7 +50,7 @@ Public Class AddCat
         Finally
             If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
         End Try
-        Main.Button1.PerformClick()
+        frmTop.Button1.PerformClick()
         Me.Close()
 
     End Sub

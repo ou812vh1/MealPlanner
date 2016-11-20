@@ -63,7 +63,7 @@ Public Class frmLeft
 
 
     Private Sub TV1_AfterSelect(sender As Object, e As TreeViewEventArgs) Handles TV1.AfterSelect
-        frmRight.Label1.Text = TV1.SelectedNode.Text
+        frmTop.Label1.Text = TV1.SelectedNode.Text
         frmRight.Timer1.Enabled = True
 
     End Sub
