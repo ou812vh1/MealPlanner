@@ -56,7 +56,8 @@ Public Class EditIngredients
 
         Try
             SQLConn.Open()
-            SQLcmd = New SqlCommand("Select name, ingredientid  From ingredients order by name asc", SQLConn)
+            'SQLcmd = New SqlCommand("Select name, ingredientid  From ingredients order by name asc", SQLConn)
+            SQLcmd = New SqlCommand("Select Shrt_Desc, NDB_No  From ABBREV order by Shrt_Desc asc", SQLConn)
             Dim SQLDS As New DataSet
             Dim SQLDA As New SqlDataAdapter(SQLcmd)
             recordcount = SQLDA.Fill(SQLDS)
@@ -67,8 +68,9 @@ Public Class EditIngredients
                 Exit Sub
             Else
                 For Each r As DataRow In SQLDS.Tables(0).Rows
-                    'Dim row As String() = New String() {r("name")}
-                    ComboBox3.Items.Add(r("Name"))
+
+                    'ComboBox3.Items.Add(r("name"))
+                    ComboBox3.Items.Add(r("Shrt_Desc"))
 
                 Next
             End If

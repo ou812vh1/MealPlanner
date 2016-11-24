@@ -57,6 +57,8 @@ Public Class frmTop
         Finally
             If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
         End Try
+        frmRight.DGV2.DataSource = Nothing
+        frmRight.DGV2.Refresh()
     End Sub
     Private Sub DelSteps()
         Dim recordcount As Integer = 0
@@ -75,6 +77,8 @@ Public Class frmTop
         Finally
             If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
         End Try
+        frmRight.DGV1.DataSource = Nothing
+        frmRight.DGV1.Refresh()
     End Sub
     Private Sub DelRecipe()
         Dim recordcount As Integer = 0
@@ -101,5 +105,30 @@ Public Class frmTop
     Private Sub frmTop_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SQLstr = "Data Source=Server1;Initial Catalog=SimpleRecipeDB;Persist Security Info=True;User ID=sa;Password=F1ll3R01"
         SQLConn.ConnectionString = SQLstr
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        If frmRight.Label2.Text <> "" And frmRight.Label2.Text <> 0 Then
+            frmMenu.Show()
+            frmMenu.Label2.Text = frmRight.Label2.Text
+            frmMenu.Label3.Text = Label1.Text
+        Else
+            MsgBox("You Haven't Selected A Recipe To Add Yet", vbOKOnly)
+            Exit Sub
+        End If
+
+
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        MPlanDay.Show()
+        MPlanDay.Label1.Text = Today
+        MPlanDay.Timer1.Enabled = True
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        MPlanWeek.Show()
+        MPlanWeek.DateTimePicker1.Text = Today
     End Sub
 End Class

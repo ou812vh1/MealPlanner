@@ -63,8 +63,22 @@ Public Class frmLeft
 
 
     Private Sub TV1_AfterSelect(sender As Object, e As TreeViewEventArgs) Handles TV1.AfterSelect
-        frmTop.Label1.Text = TV1.SelectedNode.Text
-        frmRight.Timer1.Enabled = True
+        If (e.Node.Parent IsNot Nothing) Then
+            If e.Node.Parent.Text = "Recipe Catalog" Then
+                frmTop.Label1.Text = ""
+                frmRight.Timer1.Enabled = True
+            Else
+                If (e.Node.Parent.GetType() Is GetType(TreeNode)) Then
+                    frmTop.Label1.Text = TV1.SelectedNode.Text
+                    frmRight.Timer1.Enabled = True
+                End If
+            End If
+        Else
+            frmTop.Label1.Text = ""
+            frmRight.Timer1.Enabled = True
+
+        End If
+
 
     End Sub
 End Class
