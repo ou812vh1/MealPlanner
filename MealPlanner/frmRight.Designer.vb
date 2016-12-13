@@ -28,7 +28,6 @@ Partial Class frmRight
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -37,7 +36,6 @@ Partial Class frmRight
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -178,6 +176,68 @@ Partial Class frmRight
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label125 = New System.Windows.Forms.Label()
+        Me.Label126 = New System.Windows.Forms.Label()
+        Me.Label127 = New System.Windows.Forms.Label()
+        Me.Label128 = New System.Windows.Forms.Label()
+        Me.Label129 = New System.Windows.Forms.Label()
+        Me.Label130 = New System.Windows.Forms.Label()
+        Me.Label131 = New System.Windows.Forms.Label()
+        Me.Label132 = New System.Windows.Forms.Label()
+        Me.Label133 = New System.Windows.Forms.Label()
+        Me.Label134 = New System.Windows.Forms.Label()
+        Me.Label135 = New System.Windows.Forms.Label()
+        Me.Label136 = New System.Windows.Forms.Label()
+        Me.Label137 = New System.Windows.Forms.Label()
+        Me.Label138 = New System.Windows.Forms.Label()
+        Me.Label139 = New System.Windows.Forms.Label()
+        Me.Label140 = New System.Windows.Forms.Label()
+        Me.Label159 = New System.Windows.Forms.Label()
+        Me.Label160 = New System.Windows.Forms.Label()
+        Me.Label161 = New System.Windows.Forms.Label()
+        Me.Label162 = New System.Windows.Forms.Label()
+        Me.Label163 = New System.Windows.Forms.Label()
+        Me.Label164 = New System.Windows.Forms.Label()
+        Me.Label165 = New System.Windows.Forms.Label()
+        Me.Label166 = New System.Windows.Forms.Label()
+        Me.Label167 = New System.Windows.Forms.Label()
+        Me.Label168 = New System.Windows.Forms.Label()
+        Me.Label169 = New System.Windows.Forms.Label()
+        Me.Label170 = New System.Windows.Forms.Label()
+        Me.Label171 = New System.Windows.Forms.Label()
+        Me.Label172 = New System.Windows.Forms.Label()
+        Me.Label173 = New System.Windows.Forms.Label()
+        Me.Label174 = New System.Windows.Forms.Label()
+        Me.Label175 = New System.Windows.Forms.Label()
+        Me.Label176 = New System.Windows.Forms.Label()
+        Me.Label177 = New System.Windows.Forms.Label()
+        Me.Label178 = New System.Windows.Forms.Label()
+        Me.Label179 = New System.Windows.Forms.Label()
+        Me.Label180 = New System.Windows.Forms.Label()
+        Me.Label181 = New System.Windows.Forms.Label()
+        Me.Label182 = New System.Windows.Forms.Label()
+        Me.Label183 = New System.Windows.Forms.Label()
+        Me.Label184 = New System.Windows.Forms.Label()
+        Me.Label185 = New System.Windows.Forms.Label()
+        Me.Label186 = New System.Windows.Forms.Label()
+        Me.Label187 = New System.Windows.Forms.Label()
+        Me.Label188 = New System.Windows.Forms.Label()
+        Me.Label189 = New System.Windows.Forms.Label()
+        Me.Label190 = New System.Windows.Forms.Label()
+        Me.Label191 = New System.Windows.Forms.Label()
+        Me.Label192 = New System.Windows.Forms.Label()
+        Me.Label193 = New System.Windows.Forms.Label()
+        Me.Label194 = New System.Windows.Forms.Label()
+        Me.Label195 = New System.Windows.Forms.Label()
+        Me.Label196 = New System.Windows.Forms.Label()
+        Me.Label197 = New System.Windows.Forms.Label()
+        Me.Label198 = New System.Windows.Forms.Label()
+        Me.Label199 = New System.Windows.Forms.Label()
+        Me.Label200 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -199,15 +259,76 @@ Partial Class frmRight
         Me.TabControl1.Location = New System.Drawing.Point(12, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(863, 625)
+        Me.TabControl1.Size = New System.Drawing.Size(942, 625)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.TabControl1.TabIndex = 4
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.Button1)
+        Me.TabPage1.Controls.Add(Me.TextBox1)
+        Me.TabPage1.Controls.Add(Me.Label19)
+        Me.TabPage1.Controls.Add(Me.Label195)
+        Me.TabPage1.Controls.Add(Me.Label196)
+        Me.TabPage1.Controls.Add(Me.Label197)
+        Me.TabPage1.Controls.Add(Me.Label198)
+        Me.TabPage1.Controls.Add(Me.Label199)
+        Me.TabPage1.Controls.Add(Me.Label200)
+        Me.TabPage1.Controls.Add(Me.Label194)
+        Me.TabPage1.Controls.Add(Me.Label190)
+        Me.TabPage1.Controls.Add(Me.Label191)
+        Me.TabPage1.Controls.Add(Me.Label192)
+        Me.TabPage1.Controls.Add(Me.Label193)
+        Me.TabPage1.Controls.Add(Me.Label186)
+        Me.TabPage1.Controls.Add(Me.Label187)
+        Me.TabPage1.Controls.Add(Me.Label188)
+        Me.TabPage1.Controls.Add(Me.Label189)
+        Me.TabPage1.Controls.Add(Me.Label184)
+        Me.TabPage1.Controls.Add(Me.Label185)
+        Me.TabPage1.Controls.Add(Me.Label182)
+        Me.TabPage1.Controls.Add(Me.Label183)
+        Me.TabPage1.Controls.Add(Me.Label180)
+        Me.TabPage1.Controls.Add(Me.Label181)
+        Me.TabPage1.Controls.Add(Me.Label178)
+        Me.TabPage1.Controls.Add(Me.Label179)
+        Me.TabPage1.Controls.Add(Me.Label177)
+        Me.TabPage1.Controls.Add(Me.Label176)
+        Me.TabPage1.Controls.Add(Me.Label175)
+        Me.TabPage1.Controls.Add(Me.Label174)
+        Me.TabPage1.Controls.Add(Me.Label170)
+        Me.TabPage1.Controls.Add(Me.Label171)
+        Me.TabPage1.Controls.Add(Me.Label172)
+        Me.TabPage1.Controls.Add(Me.Label173)
+        Me.TabPage1.Controls.Add(Me.Label168)
+        Me.TabPage1.Controls.Add(Me.Label169)
+        Me.TabPage1.Controls.Add(Me.Label166)
+        Me.TabPage1.Controls.Add(Me.Label167)
+        Me.TabPage1.Controls.Add(Me.Label164)
+        Me.TabPage1.Controls.Add(Me.Label165)
+        Me.TabPage1.Controls.Add(Me.Label162)
+        Me.TabPage1.Controls.Add(Me.Label163)
+        Me.TabPage1.Controls.Add(Me.Label160)
+        Me.TabPage1.Controls.Add(Me.Label161)
+        Me.TabPage1.Controls.Add(Me.Label140)
+        Me.TabPage1.Controls.Add(Me.Label159)
+        Me.TabPage1.Controls.Add(Me.Label138)
+        Me.TabPage1.Controls.Add(Me.Label139)
+        Me.TabPage1.Controls.Add(Me.Label136)
+        Me.TabPage1.Controls.Add(Me.Label137)
+        Me.TabPage1.Controls.Add(Me.Label134)
+        Me.TabPage1.Controls.Add(Me.Label135)
+        Me.TabPage1.Controls.Add(Me.Label132)
+        Me.TabPage1.Controls.Add(Me.Label133)
+        Me.TabPage1.Controls.Add(Me.Label131)
+        Me.TabPage1.Controls.Add(Me.Label130)
+        Me.TabPage1.Controls.Add(Me.Label129)
+        Me.TabPage1.Controls.Add(Me.Label128)
+        Me.TabPage1.Controls.Add(Me.Label127)
+        Me.TabPage1.Controls.Add(Me.Label126)
+        Me.TabPage1.Controls.Add(Me.Label125)
+        Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Controls.Add(Me.Label45)
         Me.TabPage1.Controls.Add(Me.Label46)
-        Me.TabPage1.Controls.Add(Me.Label19)
         Me.TabPage1.Controls.Add(Me.Label20)
         Me.TabPage1.Controls.Add(Me.Label9)
         Me.TabPage1.Controls.Add(Me.Label10)
@@ -216,13 +337,12 @@ Partial Class frmRight
         Me.TabPage1.Controls.Add(Me.Label6)
         Me.TabPage1.Controls.Add(Me.Label5)
         Me.TabPage1.Controls.Add(Me.TextBox2)
-        Me.TabPage1.Controls.Add(Me.TextBox1)
         Me.TabPage1.Controls.Add(Me.PictureBox1)
         Me.TabPage1.ForeColor = System.Drawing.Color.Black
         Me.TabPage1.Location = New System.Drawing.Point(4, 34)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(855, 587)
+        Me.TabPage1.Size = New System.Drawing.Size(934, 587)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Recipe"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -230,48 +350,40 @@ Partial Class frmRight
         'Label45
         '
         Me.Label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label45.Location = New System.Drawing.Point(744, 146)
+        Me.Label45.Location = New System.Drawing.Point(745, 93)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(67, 19)
         Me.Label45.TabIndex = 13
         '
         'Label46
         '
-        Me.Label46.Location = New System.Drawing.Point(668, 144)
+        Me.Label46.Location = New System.Drawing.Point(669, 91)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(67, 19)
         Me.Label46.TabIndex = 12
         Me.Label46.Text = "Oven Temp"
         Me.Label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label19
-        '
-        Me.Label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label19.Location = New System.Drawing.Point(744, 123)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(67, 19)
-        Me.Label19.TabIndex = 11
-        '
         'Label20
         '
-        Me.Label20.Location = New System.Drawing.Point(668, 120)
+        Me.Label20.Location = New System.Drawing.Point(652, 174)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(67, 19)
+        Me.Label20.Size = New System.Drawing.Size(92, 19)
         Me.Label20.TabIndex = 10
-        Me.Label20.Text = "Calories"
+        Me.Label20.Text = "Calories from Fat"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label9
         '
         Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label9.Location = New System.Drawing.Point(586, 168)
+        Me.Label9.Location = New System.Drawing.Point(744, 122)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(67, 19)
         Me.Label9.TabIndex = 9
         '
         'Label10
         '
-        Me.Label10.Location = New System.Drawing.Point(510, 165)
+        Me.Label10.Location = New System.Drawing.Point(668, 119)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(67, 19)
         Me.Label10.TabIndex = 8
@@ -281,14 +393,14 @@ Partial Class frmRight
         'Label7
         '
         Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label7.Location = New System.Drawing.Point(586, 146)
+        Me.Label7.Location = New System.Drawing.Point(586, 122)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(67, 19)
         Me.Label7.TabIndex = 7
         '
         'Label8
         '
-        Me.Label8.Location = New System.Drawing.Point(494, 143)
+        Me.Label8.Location = New System.Drawing.Point(494, 119)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(83, 19)
         Me.Label8.TabIndex = 6
@@ -298,14 +410,14 @@ Partial Class frmRight
         'Label6
         '
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label6.Location = New System.Drawing.Point(586, 123)
+        Me.Label6.Location = New System.Drawing.Point(586, 93)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(67, 19)
         Me.Label6.TabIndex = 5
         '
         'Label5
         '
-        Me.Label5.Location = New System.Drawing.Point(510, 120)
+        Me.Label5.Location = New System.Drawing.Point(510, 90)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(67, 19)
         Me.Label5.TabIndex = 4
@@ -315,19 +427,11 @@ Partial Class frmRight
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(513, 54)
+        Me.TextBox2.Location = New System.Drawing.Point(513, 24)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(307, 53)
         Me.TextBox2.TabIndex = 2
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(513, 234)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(307, 259)
-        Me.TextBox1.TabIndex = 1
         '
         'PictureBox1
         '
@@ -348,7 +452,7 @@ Partial Class frmRight
         Me.TabPage2.Location = New System.Drawing.Point(4, 34)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(855, 587)
+        Me.TabPage2.Size = New System.Drawing.Size(934, 587)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Ingredients"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -382,7 +486,7 @@ Partial Class frmRight
         Me.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV1.Location = New System.Drawing.Point(15, 58)
         Me.DGV1.Name = "DGV1"
-        Me.DGV1.Size = New System.Drawing.Size(834, 482)
+        Me.DGV1.Size = New System.Drawing.Size(913, 511)
         Me.DGV1.TabIndex = 1
         '
         'TabPage3
@@ -392,7 +496,7 @@ Partial Class frmRight
         Me.TabPage3.Controls.Add(Me.DGV2)
         Me.TabPage3.Location = New System.Drawing.Point(4, 34)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(855, 587)
+        Me.TabPage3.Size = New System.Drawing.Size(934, 587)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Prepare"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -426,7 +530,7 @@ Partial Class frmRight
         Me.DGV2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV2.Location = New System.Drawing.Point(15, 58)
         Me.DGV2.Name = "DGV2"
-        Me.DGV2.Size = New System.Drawing.Size(834, 487)
+        Me.DGV2.Size = New System.Drawing.Size(916, 513)
         Me.DGV2.TabIndex = 11
         '
         'TabPage4
@@ -1666,6 +1770,611 @@ Partial Class frmRight
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "0"
         '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(494, 155)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(123, 19)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "Nutrition Facts:"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label125
+        '
+        Me.Label125.Location = New System.Drawing.Point(495, 174)
+        Me.Label125.Name = "Label125"
+        Me.Label125.Size = New System.Drawing.Size(68, 19)
+        Me.Label125.TabIndex = 15
+        Me.Label125.Text = "Serving Size"
+        Me.Label125.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label126
+        '
+        Me.Label126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label126.Location = New System.Drawing.Point(559, 174)
+        Me.Label126.Name = "Label126"
+        Me.Label126.Size = New System.Drawing.Size(58, 19)
+        Me.Label126.TabIndex = 16
+        Me.Label126.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label127
+        '
+        Me.Label127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label127.Location = New System.Drawing.Point(753, 174)
+        Me.Label127.Name = "Label127"
+        Me.Label127.Size = New System.Drawing.Size(58, 19)
+        Me.Label127.TabIndex = 17
+        Me.Label127.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label128
+        '
+        Me.Label128.BackColor = System.Drawing.Color.Black
+        Me.Label128.Location = New System.Drawing.Point(495, 197)
+        Me.Label128.Name = "Label128"
+        Me.Label128.Size = New System.Drawing.Size(316, 5)
+        Me.Label128.TabIndex = 18
+        Me.Label128.Text = "Calories from Fat"
+        Me.Label128.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label129
+        '
+        Me.Label129.BackColor = System.Drawing.Color.Black
+        Me.Label129.Location = New System.Drawing.Point(494, 452)
+        Me.Label129.Name = "Label129"
+        Me.Label129.Size = New System.Drawing.Size(316, 5)
+        Me.Label129.TabIndex = 19
+        Me.Label129.Text = "Calories from Fat"
+        Me.Label129.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label130
+        '
+        Me.Label130.BackColor = System.Drawing.Color.Gray
+        Me.Label130.ForeColor = System.Drawing.Color.Gray
+        Me.Label130.Location = New System.Drawing.Point(495, 225)
+        Me.Label130.Name = "Label130"
+        Me.Label130.Size = New System.Drawing.Size(316, 2)
+        Me.Label130.TabIndex = 20
+        Me.Label130.Text = "Calories from Fat"
+        Me.Label130.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label131
+        '
+        Me.Label131.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label131.Location = New System.Drawing.Point(719, 206)
+        Me.Label131.Name = "Label131"
+        Me.Label131.Size = New System.Drawing.Size(92, 15)
+        Me.Label131.TabIndex = 21
+        Me.Label131.Text = "% Daily Values"
+        Me.Label131.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label132
+        '
+        Me.Label132.Location = New System.Drawing.Point(719, 227)
+        Me.Label132.Name = "Label132"
+        Me.Label132.Size = New System.Drawing.Size(92, 15)
+        Me.Label132.TabIndex = 23
+        Me.Label132.Text = "% Daily Values"
+        Me.Label132.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label133
+        '
+        Me.Label133.BackColor = System.Drawing.Color.Gray
+        Me.Label133.ForeColor = System.Drawing.Color.Gray
+        Me.Label133.Location = New System.Drawing.Point(495, 246)
+        Me.Label133.Name = "Label133"
+        Me.Label133.Size = New System.Drawing.Size(316, 2)
+        Me.Label133.TabIndex = 22
+        Me.Label133.Text = "Calories from Fat"
+        Me.Label133.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label134
+        '
+        Me.Label134.Location = New System.Drawing.Point(719, 248)
+        Me.Label134.Name = "Label134"
+        Me.Label134.Size = New System.Drawing.Size(92, 15)
+        Me.Label134.TabIndex = 25
+        Me.Label134.Text = "% Daily Values"
+        Me.Label134.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label135
+        '
+        Me.Label135.BackColor = System.Drawing.Color.Gray
+        Me.Label135.ForeColor = System.Drawing.Color.Gray
+        Me.Label135.Location = New System.Drawing.Point(495, 267)
+        Me.Label135.Name = "Label135"
+        Me.Label135.Size = New System.Drawing.Size(316, 2)
+        Me.Label135.TabIndex = 24
+        Me.Label135.Text = "Calories from Fat"
+        Me.Label135.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label136
+        '
+        Me.Label136.Location = New System.Drawing.Point(719, 269)
+        Me.Label136.Name = "Label136"
+        Me.Label136.Size = New System.Drawing.Size(92, 15)
+        Me.Label136.TabIndex = 27
+        Me.Label136.Text = "% Daily Values"
+        Me.Label136.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label137
+        '
+        Me.Label137.BackColor = System.Drawing.Color.Gray
+        Me.Label137.ForeColor = System.Drawing.Color.Gray
+        Me.Label137.Location = New System.Drawing.Point(495, 288)
+        Me.Label137.Name = "Label137"
+        Me.Label137.Size = New System.Drawing.Size(316, 2)
+        Me.Label137.TabIndex = 26
+        Me.Label137.Text = "Calories from Fat"
+        Me.Label137.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label138
+        '
+        Me.Label138.Location = New System.Drawing.Point(719, 290)
+        Me.Label138.Name = "Label138"
+        Me.Label138.Size = New System.Drawing.Size(92, 15)
+        Me.Label138.TabIndex = 29
+        Me.Label138.Text = "% Daily Values"
+        Me.Label138.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label139
+        '
+        Me.Label139.BackColor = System.Drawing.Color.Gray
+        Me.Label139.ForeColor = System.Drawing.Color.Gray
+        Me.Label139.Location = New System.Drawing.Point(495, 309)
+        Me.Label139.Name = "Label139"
+        Me.Label139.Size = New System.Drawing.Size(316, 2)
+        Me.Label139.TabIndex = 28
+        Me.Label139.Text = "Calories from Fat"
+        Me.Label139.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label140
+        '
+        Me.Label140.Location = New System.Drawing.Point(719, 311)
+        Me.Label140.Name = "Label140"
+        Me.Label140.Size = New System.Drawing.Size(92, 15)
+        Me.Label140.TabIndex = 31
+        Me.Label140.Text = "% Daily Values"
+        Me.Label140.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label159
+        '
+        Me.Label159.BackColor = System.Drawing.Color.Gray
+        Me.Label159.ForeColor = System.Drawing.Color.Gray
+        Me.Label159.Location = New System.Drawing.Point(495, 330)
+        Me.Label159.Name = "Label159"
+        Me.Label159.Size = New System.Drawing.Size(316, 2)
+        Me.Label159.TabIndex = 30
+        Me.Label159.Text = "Calories from Fat"
+        Me.Label159.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label160
+        '
+        Me.Label160.Location = New System.Drawing.Point(719, 332)
+        Me.Label160.Name = "Label160"
+        Me.Label160.Size = New System.Drawing.Size(92, 15)
+        Me.Label160.TabIndex = 33
+        Me.Label160.Text = "% Daily Values"
+        Me.Label160.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label161
+        '
+        Me.Label161.BackColor = System.Drawing.Color.Gray
+        Me.Label161.ForeColor = System.Drawing.Color.Gray
+        Me.Label161.Location = New System.Drawing.Point(495, 351)
+        Me.Label161.Name = "Label161"
+        Me.Label161.Size = New System.Drawing.Size(316, 2)
+        Me.Label161.TabIndex = 32
+        Me.Label161.Text = "Calories from Fat"
+        Me.Label161.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label162
+        '
+        Me.Label162.Location = New System.Drawing.Point(719, 353)
+        Me.Label162.Name = "Label162"
+        Me.Label162.Size = New System.Drawing.Size(92, 15)
+        Me.Label162.TabIndex = 35
+        Me.Label162.Text = "% Daily Values"
+        Me.Label162.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label163
+        '
+        Me.Label163.BackColor = System.Drawing.Color.Gray
+        Me.Label163.ForeColor = System.Drawing.Color.Gray
+        Me.Label163.Location = New System.Drawing.Point(495, 372)
+        Me.Label163.Name = "Label163"
+        Me.Label163.Size = New System.Drawing.Size(316, 2)
+        Me.Label163.TabIndex = 34
+        Me.Label163.Text = "Calories from Fat"
+        Me.Label163.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label164
+        '
+        Me.Label164.Location = New System.Drawing.Point(719, 374)
+        Me.Label164.Name = "Label164"
+        Me.Label164.Size = New System.Drawing.Size(92, 15)
+        Me.Label164.TabIndex = 37
+        Me.Label164.Text = "% Daily Values"
+        Me.Label164.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label165
+        '
+        Me.Label165.BackColor = System.Drawing.Color.Gray
+        Me.Label165.ForeColor = System.Drawing.Color.Gray
+        Me.Label165.Location = New System.Drawing.Point(495, 393)
+        Me.Label165.Name = "Label165"
+        Me.Label165.Size = New System.Drawing.Size(316, 2)
+        Me.Label165.TabIndex = 36
+        Me.Label165.Text = "Calories from Fat"
+        Me.Label165.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label166
+        '
+        Me.Label166.Location = New System.Drawing.Point(719, 395)
+        Me.Label166.Name = "Label166"
+        Me.Label166.Size = New System.Drawing.Size(92, 15)
+        Me.Label166.TabIndex = 39
+        Me.Label166.Text = "% Daily Values"
+        Me.Label166.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label167
+        '
+        Me.Label167.BackColor = System.Drawing.Color.Gray
+        Me.Label167.ForeColor = System.Drawing.Color.Gray
+        Me.Label167.Location = New System.Drawing.Point(495, 414)
+        Me.Label167.Name = "Label167"
+        Me.Label167.Size = New System.Drawing.Size(316, 2)
+        Me.Label167.TabIndex = 38
+        Me.Label167.Text = "Calories from Fat"
+        Me.Label167.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label168
+        '
+        Me.Label168.Location = New System.Drawing.Point(719, 416)
+        Me.Label168.Name = "Label168"
+        Me.Label168.Size = New System.Drawing.Size(92, 15)
+        Me.Label168.TabIndex = 41
+        Me.Label168.Text = "% Daily Values"
+        Me.Label168.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label169
+        '
+        Me.Label169.BackColor = System.Drawing.Color.Gray
+        Me.Label169.ForeColor = System.Drawing.Color.Gray
+        Me.Label169.Location = New System.Drawing.Point(495, 435)
+        Me.Label169.Name = "Label169"
+        Me.Label169.Size = New System.Drawing.Size(316, 2)
+        Me.Label169.TabIndex = 40
+        Me.Label169.Text = "Calories from Fat"
+        Me.Label169.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label170
+        '
+        Me.Label170.Location = New System.Drawing.Point(510, 290)
+        Me.Label170.Name = "Label170"
+        Me.Label170.Size = New System.Drawing.Size(115, 15)
+        Me.Label170.TabIndex = 45
+        Me.Label170.Text = "Monounsaturated Fat"
+        Me.Label170.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label171
+        '
+        Me.Label171.Location = New System.Drawing.Point(510, 269)
+        Me.Label171.Name = "Label171"
+        Me.Label171.Size = New System.Drawing.Size(105, 15)
+        Me.Label171.TabIndex = 44
+        Me.Label171.Text = "Polyunsaturated Fat"
+        Me.Label171.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label172
+        '
+        Me.Label172.Location = New System.Drawing.Point(510, 248)
+        Me.Label172.Name = "Label172"
+        Me.Label172.Size = New System.Drawing.Size(78, 15)
+        Me.Label172.TabIndex = 43
+        Me.Label172.Text = "Saturated Fat"
+        Me.Label172.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label173
+        '
+        Me.Label173.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label173.Location = New System.Drawing.Point(494, 227)
+        Me.Label173.Name = "Label173"
+        Me.Label173.Size = New System.Drawing.Size(59, 15)
+        Me.Label173.TabIndex = 42
+        Me.Label173.Text = "Total Fat"
+        Me.Label173.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label174
+        '
+        Me.Label174.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label174.Location = New System.Drawing.Point(556, 227)
+        Me.Label174.Name = "Label174"
+        Me.Label174.Size = New System.Drawing.Size(59, 15)
+        Me.Label174.TabIndex = 46
+        Me.Label174.Text = "174"
+        Me.Label174.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label175
+        '
+        Me.Label175.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label175.Location = New System.Drawing.Point(594, 248)
+        Me.Label175.Name = "Label175"
+        Me.Label175.Size = New System.Drawing.Size(59, 15)
+        Me.Label175.TabIndex = 47
+        Me.Label175.Text = "175"
+        Me.Label175.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label176
+        '
+        Me.Label176.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label176.Location = New System.Drawing.Point(618, 269)
+        Me.Label176.Name = "Label176"
+        Me.Label176.Size = New System.Drawing.Size(59, 15)
+        Me.Label176.TabIndex = 48
+        Me.Label176.Text = "176"
+        Me.Label176.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label177
+        '
+        Me.Label177.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label177.Location = New System.Drawing.Point(618, 290)
+        Me.Label177.Name = "Label177"
+        Me.Label177.Size = New System.Drawing.Size(59, 15)
+        Me.Label177.TabIndex = 49
+        Me.Label177.Text = "177"
+        Me.Label177.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label178
+        '
+        Me.Label178.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label178.Location = New System.Drawing.Point(566, 311)
+        Me.Label178.Name = "Label178"
+        Me.Label178.Size = New System.Drawing.Size(59, 15)
+        Me.Label178.TabIndex = 51
+        Me.Label178.Text = "178"
+        Me.Label178.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label179
+        '
+        Me.Label179.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label179.Location = New System.Drawing.Point(494, 311)
+        Me.Label179.Name = "Label179"
+        Me.Label179.Size = New System.Drawing.Size(83, 15)
+        Me.Label179.TabIndex = 50
+        Me.Label179.Text = "Cholesterol"
+        Me.Label179.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label180
+        '
+        Me.Label180.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label180.Location = New System.Drawing.Point(556, 332)
+        Me.Label180.Name = "Label180"
+        Me.Label180.Size = New System.Drawing.Size(59, 15)
+        Me.Label180.TabIndex = 53
+        Me.Label180.Text = "180"
+        Me.Label180.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label181
+        '
+        Me.Label181.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label181.Location = New System.Drawing.Point(494, 332)
+        Me.Label181.Name = "Label181"
+        Me.Label181.Size = New System.Drawing.Size(59, 15)
+        Me.Label181.TabIndex = 52
+        Me.Label181.Text = "Sodium"
+        Me.Label181.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label182
+        '
+        Me.Label182.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label182.Location = New System.Drawing.Point(566, 353)
+        Me.Label182.Name = "Label182"
+        Me.Label182.Size = New System.Drawing.Size(59, 15)
+        Me.Label182.TabIndex = 55
+        Me.Label182.Text = "182"
+        Me.Label182.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label183
+        '
+        Me.Label183.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label183.Location = New System.Drawing.Point(494, 353)
+        Me.Label183.Name = "Label183"
+        Me.Label183.Size = New System.Drawing.Size(83, 15)
+        Me.Label183.TabIndex = 54
+        Me.Label183.Text = "Potassium"
+        Me.Label183.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label184
+        '
+        Me.Label184.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label184.Location = New System.Drawing.Point(621, 374)
+        Me.Label184.Name = "Label184"
+        Me.Label184.Size = New System.Drawing.Size(59, 15)
+        Me.Label184.TabIndex = 57
+        Me.Label184.Text = "178"
+        Me.Label184.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label185
+        '
+        Me.Label185.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label185.Location = New System.Drawing.Point(494, 374)
+        Me.Label185.Name = "Label185"
+        Me.Label185.Size = New System.Drawing.Size(121, 15)
+        Me.Label185.TabIndex = 56
+        Me.Label185.Text = "Total Carbohydrate"
+        Me.Label185.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label186
+        '
+        Me.Label186.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label186.Location = New System.Drawing.Point(569, 416)
+        Me.Label186.Name = "Label186"
+        Me.Label186.Size = New System.Drawing.Size(59, 15)
+        Me.Label186.TabIndex = 61
+        Me.Label186.Text = "186"
+        Me.Label186.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label187
+        '
+        Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label187.Location = New System.Drawing.Point(583, 395)
+        Me.Label187.Name = "Label187"
+        Me.Label187.Size = New System.Drawing.Size(59, 15)
+        Me.Label187.TabIndex = 60
+        Me.Label187.Text = "187"
+        Me.Label187.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label188
+        '
+        Me.Label188.Location = New System.Drawing.Point(510, 416)
+        Me.Label188.Name = "Label188"
+        Me.Label188.Size = New System.Drawing.Size(53, 15)
+        Me.Label188.TabIndex = 59
+        Me.Label188.Text = "Sugars"
+        Me.Label188.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label189
+        '
+        Me.Label189.Location = New System.Drawing.Point(510, 395)
+        Me.Label189.Name = "Label189"
+        Me.Label189.Size = New System.Drawing.Size(67, 15)
+        Me.Label189.TabIndex = 58
+        Me.Label189.Text = "Dietay Fiber"
+        Me.Label189.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label190
+        '
+        Me.Label190.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label190.Location = New System.Drawing.Point(556, 437)
+        Me.Label190.Name = "Label190"
+        Me.Label190.Size = New System.Drawing.Size(59, 15)
+        Me.Label190.TabIndex = 65
+        Me.Label190.Text = "190"
+        Me.Label190.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label191
+        '
+        Me.Label191.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label191.Location = New System.Drawing.Point(494, 437)
+        Me.Label191.Name = "Label191"
+        Me.Label191.Size = New System.Drawing.Size(59, 15)
+        Me.Label191.TabIndex = 64
+        Me.Label191.Text = "Protein"
+        Me.Label191.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label192
+        '
+        Me.Label192.Location = New System.Drawing.Point(719, 437)
+        Me.Label192.Name = "Label192"
+        Me.Label192.Size = New System.Drawing.Size(92, 15)
+        Me.Label192.TabIndex = 63
+        Me.Label192.Text = "% Daily Values"
+        Me.Label192.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label193
+        '
+        Me.Label193.BackColor = System.Drawing.Color.Gray
+        Me.Label193.ForeColor = System.Drawing.Color.Gray
+        Me.Label193.Location = New System.Drawing.Point(496, 476)
+        Me.Label193.Name = "Label193"
+        Me.Label193.Size = New System.Drawing.Size(316, 2)
+        Me.Label193.TabIndex = 62
+        Me.Label193.Text = "Calories from Fat"
+        Me.Label193.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label194
+        '
+        Me.Label194.BackColor = System.Drawing.Color.Gray
+        Me.Label194.ForeColor = System.Drawing.Color.Gray
+        Me.Label194.Location = New System.Drawing.Point(496, 497)
+        Me.Label194.Name = "Label194"
+        Me.Label194.Size = New System.Drawing.Size(316, 2)
+        Me.Label194.TabIndex = 66
+        Me.Label194.Text = "Calories from Fat"
+        Me.Label194.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label195
+        '
+        Me.Label195.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label195.Location = New System.Drawing.Point(558, 478)
+        Me.Label195.Name = "Label195"
+        Me.Label195.Size = New System.Drawing.Size(59, 15)
+        Me.Label195.TabIndex = 72
+        Me.Label195.Text = "186"
+        Me.Label195.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label196
+        '
+        Me.Label196.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label196.Location = New System.Drawing.Point(558, 457)
+        Me.Label196.Name = "Label196"
+        Me.Label196.Size = New System.Drawing.Size(59, 15)
+        Me.Label196.TabIndex = 71
+        Me.Label196.Text = "187"
+        Me.Label196.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label197
+        '
+        Me.Label197.Location = New System.Drawing.Point(496, 478)
+        Me.Label197.Name = "Label197"
+        Me.Label197.Size = New System.Drawing.Size(53, 15)
+        Me.Label197.TabIndex = 70
+        Me.Label197.Text = "Calcium"
+        Me.Label197.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label198
+        '
+        Me.Label198.Location = New System.Drawing.Point(496, 457)
+        Me.Label198.Name = "Label198"
+        Me.Label198.Size = New System.Drawing.Size(67, 15)
+        Me.Label198.TabIndex = 69
+        Me.Label198.Text = "Vitamin A"
+        Me.Label198.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label199
+        '
+        Me.Label199.Location = New System.Drawing.Point(718, 478)
+        Me.Label199.Name = "Label199"
+        Me.Label199.Size = New System.Drawing.Size(92, 15)
+        Me.Label199.TabIndex = 68
+        Me.Label199.Text = "% Daily Values"
+        Me.Label199.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label200
+        '
+        Me.Label200.Location = New System.Drawing.Point(718, 457)
+        Me.Label200.Name = "Label200"
+        Me.Label200.Size = New System.Drawing.Size(92, 15)
+        Me.Label200.TabIndex = 67
+        Me.Label200.Text = "% Daily Values"
+        Me.Label200.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label19
+        '
+        Me.Label19.Location = New System.Drawing.Point(396, 531)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(92, 15)
+        Me.Label19.TabIndex = 73
+        Me.Label19.Text = "% Daily Values"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(561, 525)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 74
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(691, 523)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(119, 23)
+        Me.Button1.TabIndex = 75
+        Me.Button1.Text = "Recalculate Nutrition"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'frmRight
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1691,7 +2400,6 @@ Partial Class frmRight
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents TabPage3 As TabPage
@@ -1710,7 +2418,6 @@ Partial Class frmRight
     Friend WithEvents Label8 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
@@ -1842,4 +2549,66 @@ Partial Class frmRight
     Friend WithEvents Label56 As Label
     Friend WithEvents Label57 As Label
     Friend WithEvents Label58 As Label
+    Friend WithEvents Label195 As Label
+    Friend WithEvents Label196 As Label
+    Friend WithEvents Label197 As Label
+    Friend WithEvents Label198 As Label
+    Friend WithEvents Label199 As Label
+    Friend WithEvents Label200 As Label
+    Friend WithEvents Label194 As Label
+    Friend WithEvents Label190 As Label
+    Friend WithEvents Label191 As Label
+    Friend WithEvents Label192 As Label
+    Friend WithEvents Label193 As Label
+    Friend WithEvents Label186 As Label
+    Friend WithEvents Label187 As Label
+    Friend WithEvents Label188 As Label
+    Friend WithEvents Label189 As Label
+    Friend WithEvents Label184 As Label
+    Friend WithEvents Label185 As Label
+    Friend WithEvents Label182 As Label
+    Friend WithEvents Label183 As Label
+    Friend WithEvents Label180 As Label
+    Friend WithEvents Label181 As Label
+    Friend WithEvents Label178 As Label
+    Friend WithEvents Label179 As Label
+    Friend WithEvents Label177 As Label
+    Friend WithEvents Label176 As Label
+    Friend WithEvents Label175 As Label
+    Friend WithEvents Label174 As Label
+    Friend WithEvents Label170 As Label
+    Friend WithEvents Label171 As Label
+    Friend WithEvents Label172 As Label
+    Friend WithEvents Label173 As Label
+    Friend WithEvents Label168 As Label
+    Friend WithEvents Label169 As Label
+    Friend WithEvents Label166 As Label
+    Friend WithEvents Label167 As Label
+    Friend WithEvents Label164 As Label
+    Friend WithEvents Label165 As Label
+    Friend WithEvents Label162 As Label
+    Friend WithEvents Label163 As Label
+    Friend WithEvents Label160 As Label
+    Friend WithEvents Label161 As Label
+    Friend WithEvents Label140 As Label
+    Friend WithEvents Label159 As Label
+    Friend WithEvents Label138 As Label
+    Friend WithEvents Label139 As Label
+    Friend WithEvents Label136 As Label
+    Friend WithEvents Label137 As Label
+    Friend WithEvents Label134 As Label
+    Friend WithEvents Label135 As Label
+    Friend WithEvents Label132 As Label
+    Friend WithEvents Label133 As Label
+    Friend WithEvents Label131 As Label
+    Friend WithEvents Label130 As Label
+    Friend WithEvents Label129 As Label
+    Friend WithEvents Label128 As Label
+    Friend WithEvents Label127 As Label
+    Friend WithEvents Label126 As Label
+    Friend WithEvents Label125 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
 End Class

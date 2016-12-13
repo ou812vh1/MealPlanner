@@ -48,6 +48,7 @@ Public Class EditIngredients
     Private Sub EditIngredients_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SQLstr = "Data Source=Server1;Initial Catalog=SimpleRecipeDB;Persist Security Info=True;User ID=sa;Password=F1ll3R01"
         SQLConn.ConnectionString = SQLstr
+        DGV1.Font = New Font("Arial", 11, FontStyle.Bold)
         LoadUnits()
         LoadIngredlist()
     End Sub
@@ -56,8 +57,8 @@ Public Class EditIngredients
 
         Try
             SQLConn.Open()
-            'SQLcmd = New SqlCommand("Select name, ingredientid  From ingredients order by name asc", SQLConn)
-            SQLcmd = New SqlCommand("Select Shrt_Desc, NDB_No  From ABBREV order by Shrt_Desc asc", SQLConn)
+            SQLcmd = New SqlCommand("Select name, ingredientid  From ingredients order by name asc", SQLConn)
+            'SQLcmd = New SqlCommand("Select Shrt_Desc, NDB_No  From ABBREV order by Shrt_Desc asc", SQLConn)
             Dim SQLDS As New DataSet
             Dim SQLDA As New SqlDataAdapter(SQLcmd)
             recordcount = SQLDA.Fill(SQLDS)
@@ -69,8 +70,8 @@ Public Class EditIngredients
             Else
                 For Each r As DataRow In SQLDS.Tables(0).Rows
 
-                    'ComboBox3.Items.Add(r("name"))
-                    ComboBox3.Items.Add(r("Shrt_Desc"))
+                    ComboBox3.Items.Add(r("name"))
+                    'ComboBox3.Items.Add(r("Shrt_Desc"))
 
                 Next
             End If

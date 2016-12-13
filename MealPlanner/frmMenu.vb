@@ -25,7 +25,7 @@ Public Class frmMenu
             Dim MyDate1 As String
             Dim str As String
 
-            MyDate1 = Format(MonthCalendar1.SelectionStart, "MM/dd/yyyy")
+            MyDate1 = Format(MonthCalendar1.SelectionStart, "M/d/yyyy")
 
             SQLstr = "Data Source=Server1;Initial Catalog=SimpleRecipeDB;Persist Security Info=True;User ID=sa;Password=F1ll3R01"
             SQLConn.ConnectionString = SQLstr

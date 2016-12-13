@@ -12,6 +12,7 @@ Public Class Steps
     Private Sub Steps_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SQLstr = "Data Source=Server1;Initial Catalog=SimpleRecipeDB;Persist Security Info=True;User ID=sa;Password=F1ll3R01"
         SQLConn.ConnectionString = SQLstr
+        DataGridView1.Font = New Font("Arial", 11, FontStyle.Bold)
     End Sub
     Private Sub SaveProcedures()
         Try     ' Getting the tasks for (X) WO's
